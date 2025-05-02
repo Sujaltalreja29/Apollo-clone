@@ -6,6 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://yourdomain.com"),
   title: "Apollo 247 - Find General Physicians & Internal Medicine Specialists",
   description:
     "Consult with top general physicians and internal medicine specialists. Book appointments online with experienced doctors.",
@@ -14,7 +15,6 @@ export const metadata: Metadata = {
     title: "Apollo 247 - Find General Physicians & Internal Medicine Specialists",
     description:
       "Consult with top general physicians and internal medicine specialists. Book appointments online with experienced doctors.",
-    url: "https://www.apollo247.com/specialties/general-physician-internal-medicine",
     siteName: "Apollo 247",
     images: [
       {
